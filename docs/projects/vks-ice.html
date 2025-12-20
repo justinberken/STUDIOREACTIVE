@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKS Ice | Studio Reactive</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">Studio Reactive</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Projects</a></li>
+                <li><a href="../about.html">Studio</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="project-detail">
+        <h1 class="project-detail-title">VKS Ice</h1>
+
+                        <div class="project-gallery">
+            <img src="../images/vks-ice-2.jpg" alt="VKS Ice" class="detail-image">
+            <img src="../images/vksice1.jpg" alt="VKS Ice" class="detail-image">
+            <img src="../images/vksice3.jpg" alt="VKS Ice" class="detail-image">
+        </div>
+
+        <div class="project-description">
+            <p>Project details coming soon.</p>
+        </div>
+
+        <div class="project-navigation">
+            <a href="../index.html">← Back to Projects</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Studio Reactive</p>
+    </footer>
+
+    <script>
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>

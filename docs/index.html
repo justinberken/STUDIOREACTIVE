@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Studio Reactive - Architecture and Design Technology Consultancy specializing in parametric modeling, digital fabrication, and emerging technologies.">
+    <title>Studio Reactive | Architecture + Design Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">Studio Reactive</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Projects</a></li>
+                <li><a href="about.html">Studio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="portfolio-grid" id="portfolio-grid">
+            <!-- Projects are loaded dynamically from PROJECT_ORDER.json -->
+        </div>
+    </main>
+
+    <script>
+        // Load projects from PROJECT_ORDER.json
+        async function loadProjects() {
+            try {
+                const response = await fetch('PROJECT_ORDER.json');
+                const projects = await response.json();
+                const grid = document.getElementById('portfolio-grid');
+
+                projects.forEach((project, index) => {
+                    const number = String(index + 1).padStart(2, '0');
+                    const card = document.createElement('a');
+                    card.href = project.url;
+                    card.className = 'project-card';
+                    card.setAttribute('data-number', number);
+
+                    card.innerHTML = `
+                        <img src="${project.image}" alt="${project.title}" class="project-image">
+                        <h2 class="project-title">${project.title}</h2>
+                    `;
+
+                    grid.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Error loading projects:', error);
+            }
+        }
+
+        loadProjects();
+    </script>
+
+    <footer>
+        <p>&copy; STUDIO REACTIVE LLC 225</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>

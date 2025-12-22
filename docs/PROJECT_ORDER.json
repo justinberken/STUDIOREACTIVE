@@ -6,16 +6,52 @@
         "url": "projects/maacm-stair.html"
     },
     {
-        "id": "baystate-column",
-        "title": "Baystate Column",
-        "image": "images/2012-131-baystate-column-final-1.jpg",
-        "url": "projects/baystate-column.html"
+        "id": "rocketfuel",
+        "title": "Rocketfuel",
+        "image": "images/rocketfuel1.jpg",
+        "url": "projects/rocketfuel.html"
+    },
+    {
+        "id": "walker",
+        "title": "Walker Art Center",
+        "image": "images/walker-entrance.jpg",
+        "url": "projects/walker.html"
     },
     {
         "id": "abu-dhabi-column",
         "title": "Abu Dhabi Column",
         "image": "images/abu-dhabi-column.jpg",
         "url": "projects/abu-dhabi-column.html"
+    },
+    {
+        "id": "baystate-column",
+        "title": "Baystate Column",
+        "image": "images/2012-131-baystate-column-final-1.jpg",
+        "url": "projects/baystate-column.html"
+    },
+    {
+        "id": "ovoid",
+        "title": "Ovoid",
+        "image": "images/ovoid-maacm.jpg",
+        "url": "projects/ovoid.html"
+    },
+    {
+        "id": "sirius-xm",
+        "title": "Sirius XM",
+        "image": "images/sirius-xm-for-portfolio-visual.jpg",
+        "url": "projects/sirius-xm.html"
+    },
+    {
+        "id": "snc",
+        "title": "SNC",
+        "image": "images/snc-render.jpg",
+        "url": "projects/snc.html"
+    },
+    {
+        "id": "pmc",
+        "title": "PMC",
+        "image": "images/pmc-screenshot-1.jpg",
+        "url": "projects/pmc.html"
     },
     {
         "id": "maacm-theater",
@@ -36,64 +72,16 @@
         "url": "projects/vikings.html"
     },
     {
-        "id": "walker",
-        "title": "Walker Art Center",
-        "image": "images/walker-entrance.jpg",
-        "url": "projects/walker.html"
-    },
-    {
-        "id": "seeyond",
-        "title": "Seeyond",
-        "image": "images/1seeyondcellularresincolumnwraps-e9fef05b-fba7-4164-85f3-bd0909f8a977original.jpg",
-        "url": "projects/seeyond.html"
-    },
-    {
         "id": "mall-of-america",
-        "title": "Mall of America",
-        "image": "images/mall-of-america-dset-fab.jpg",
+        "title": "Marriott at the MOA",
+        "image": "images/mall-of-america-dset-fab-2.jpg",
         "url": "projects/mall-of-america.html"
-    },
-    {
-        "id": "orbicles",
-        "title": "Orbicles",
-        "image": "images/orbaclesgeneraldesign3.jpg",
-        "url": "projects/orbicles.html"
-    },
-    {
-        "id": "ovoid",
-        "title": "Ovoid",
-        "image": "images/ovoid-maacm.jpg",
-        "url": "projects/ovoid.html"
-    },
-    {
-        "id": "pmc",
-        "title": "PMC",
-        "image": "images/pmc-screenshot-1.jpg",
-        "url": "projects/pmc.html"
-    },
-    {
-        "id": "sirius-xm",
-        "title": "Sirius XM",
-        "image": "images/sirius-xm-for-portfolio-visual.jpg",
-        "url": "projects/sirius-xm.html"
-    },
-    {
-        "id": "snc",
-        "title": "SNC",
-        "image": "images/snc-render.jpg",
-        "url": "projects/snc.html"
     },
     {
         "id": "visa",
         "title": "Visa",
         "image": "images/visa-white-1.jpg",
         "url": "projects/visa.html"
-    },
-    {
-        "id": "vks-ice",
-        "title": "VKS Ice",
-        "image": "images/vksice1.jpg",
-        "url": "projects/vks-ice.html"
     },
     {
         "id": "neocon",
@@ -108,12 +96,6 @@
         "url": "projects/osage.html"
     },
     {
-        "id": "neu",
-        "title": "NEU",
-        "image": "images/neu-seeyond.jpg",
-        "url": "projects/neu.html"
-    },
-    {
         "id": "rainbow-ceiling",
         "title": "Rainbow Ceiling",
         "image": "images/rainbow-ceiling-in-cascades.jpg",
@@ -126,22 +108,10 @@
         "url": "projects/mercy.html"
     },
     {
-        "id": "atrium-stair",
-        "title": "Atrium Stair",
-        "image": "images/atrium-stair-dannys.jpg",
-        "url": "projects/atrium-stair.html"
-    },
-    {
         "id": "hyatt",
         "title": "Hyatt",
         "image": "images/hyatt-long-shot-background.jpg",
         "url": "projects/hyatt.html"
-    },
-    {
-        "id": "enscape-stair",
-        "title": "Enscape Stair",
-        "image": "images/enscape-stair-main.png",
-        "url": "projects/enscape-stair.html"
     },
     {
         "id": "lax",
@@ -166,11 +136,5 @@
         "title": "Studio Theatre",
         "image": "images/2014-131-nu-studio-theatre1.jpg",
         "url": "projects/studio-theatre.html"
-    },
-    {
-        "id": "rocketfuel",
-        "title": "Rocketfuel",
-        "image": "images/rocketfuel1.jpg",
-        "url": "projects/rocketfuel.html"
     }
 ]

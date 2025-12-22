@@ -32,7 +32,7 @@
         // Load projects from PROJECT_ORDER.json
         async function loadProjects() {
             try {
-                const response = await fetch('PROJECT_ORDER.json');
+                const response = await fetch('PROJECT_ORDER.json?v=' + Date.now());
                 const projects = await response.json();
                 const grid = document.getElementById('portfolio-grid');
 
